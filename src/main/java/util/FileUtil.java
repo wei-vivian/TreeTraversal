@@ -11,7 +11,6 @@ import java.util.stream.Collectors;
 
 public class FileUtil {
     public static boolean setPath(String path) {
-        System.out.println(path);
         if (new File(path).isFile()) {
             return true;
         } else {
